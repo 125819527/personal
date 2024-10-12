@@ -46,3 +46,4 @@ ssh -p 54321 root@localhost
 2. 配置完成后效果如下
 ![avatar](../pictures/pycharm-complete.png)
 3. 实际逻辑为将本地命令在远程执行并将数据同步，例如:web程序在本地执行，日志输出控制台，但实际访问链接在容器所在服务器，并需要映射端口，而非在本机localhost
+4. 访问宿主机而不需要进入容器，从第二步直接ssh连接同理
